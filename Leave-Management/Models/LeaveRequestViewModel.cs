@@ -51,6 +51,7 @@ namespace Leave_Management.Models
 
     public class CreateLeaveRequestViewModel
     {
+        public int Id { get; set; }
         [Display(Name = "Start Date")]
         [Required]
         [DataType(DataType.Date)]
